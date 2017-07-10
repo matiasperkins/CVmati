@@ -1,0 +1,55 @@
+#nav_bar{
+  float:left;
+  width: 25%;
+  position: fixed;
+}
+.foto_cv img{
+  width: 100%;
+}
+#contenido{
+  float: right;
+  width: 70%;
+}
+ul{
+  list-style: none;
+  margin-left:0px;
+  padding-left: 0px;
+}
+body{
+  background: #DEDBDE;
+}
+#informacion_personal, #contacto, #formacion_academica,
+#experiencia_laboral, #computacion, #otros_intereses{
+  background: #ffffff;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+#contenido li{
+  border-bottom: 1px solid #DEDBDE;
+  margin: 2px;
+}
+#contenido h4{
+  color: #5761DE;
+  font-size: 20px;
+}
+.titulo{
+  background: #ffffff;
+  padding: 1px;
+  margin: 5px;
+  border-radius: 10px;
+  color: #5761DE;
+  font-size: 22px;
+  width: 320px;
+}
+#nav_bar li{
+  background: #5761DE;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 10px;
+}
+#nav_bar a:link , a:visited{
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
